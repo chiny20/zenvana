@@ -1,0 +1,145 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    width: 90%;
+    padding: 40px;
+    gap: 20px;
+}
+
+.containers {
+    display: block;
+    width: 90%;
+    padding: 40px;
+    gap: 20px;
+}
+.left-section{
+    flex: 1;
+    display: flex;
+    margin: 3px;
+    padding: 4px;
+    gap: 50px;
+    /* align-items: flex-end; */
+    /* justify-content: center; */
+}
+
+.left-section a{
+    display:inline-flex;
+   
+    /* border: 2px solid beige; */
+    /* border-radius: 4px; */
+    /* margin: 0px 8px; */
+}
+
+.left-section a:hover {
+    background-color: #d8a7b1;
+    height: 40px;
+   
+
+}
+
+.right-section{
+    flex: 1;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right-section h1{
+    font-size: 2,5rem;
+    margin-bottom: 20px;
+}
+.divider{
+    width: 5px;
+    height: 400px;
+    background-color: #ffcc41;
+    margin: bottom 20px; ;
+}
+.learn-more{
+    background-color: #ffcc41;
+    color: #000;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+body{
+    font-family: 'Segoe UI',sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+.header{
+    background-color: #1c1c1c;
+    color: white;
+    padding: 20px 0;
+}
+.header h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.header nav{
+    text-align: center;
+}
+.header nav a{
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.header nav a:hover{
+    text-decoration: underline;
+}
+.hero-text{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-shadow: 1px 1px 10px rgba(0,0,0,0.7);
+    text-align: center;
+}
+.hero-text h2{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.hero-text p{
+    font-size: 1.2rem;
+}
+.section{
+    background: white;
+    margin: 20px 0;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0.2px 8px rgba(0,0,0,0,0.05);
+}
+h2{
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.services ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.services li{
+    background-color: #ececec;
+    padding: 12px 20px;
+    margin: 10px;
+    border-radius: 8px;
+    min-width: 200px;
+    text-align: center;
+}
+.footer{
+    background-color: #1c1c1c;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
